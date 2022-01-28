@@ -11,7 +11,7 @@ const OrderSchema = new Schema({
        required: true
    },
    cust_name:{
-       type: Date,
+       type: String,
        required: true
    },
    cust_number:{
