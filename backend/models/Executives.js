@@ -6,12 +6,12 @@ const ExecutiveSchema = new Schema({
        type: String,
        required: true
    },
-   last_namer:{
+   last_name:{
        type: String,
        required: true
    },
    dob:{
-       type: Date,
+       type: String,
        required: true
    },
    gender:{
